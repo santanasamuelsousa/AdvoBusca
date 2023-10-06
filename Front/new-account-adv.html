@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/Logo_atualizada_uni_branca.png">
+    <link rel="stylesheet" href="new-account-adv.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="new-account.js"></script>
+    <title>AdvoBusca</title>
+</head>
+<body>
+
+    <body>
+        <div class="container">
+            <div class="form-image">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Se cadastre, Advogado!</h1>
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="name">Nome</label>
+                            <input id="name" type="text" name="name" placeholder="Digite seu nome" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="dateNasc">Data de nascimento</label>
+                            <input id="dateNasc" type="date" name="dateNasc" placeholder="" >
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="numberPhone">Celular</label>
+                            <input id="numberPhone" type="tel" name="numberPhone" placeholder="(xx) xxxx-xxxx" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha" >
+                        </div>
+    
+    
+                        <div class="input-box">
+                            <label for="cpf">CPF</label>
+                            <input id="cpf" type="text" name="cpf" placeholder="XXX.XXX.XXX-XX" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="rg">RG</label>
+                            <input id="rg" type="text" name="rg" placeholder="digite seu rg sem caracteres especiais" >
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="imagemUsuario">Imagem usuario</label>
+                            <input id="imagemUsuario" type="file" name="imagemUsuario" placeholder="Digite a cidade do escritorio" >
+                        </div>
+                        <div class="input-box">
+                            <label for="genero">Sexo</label>
+                            <select id="genero" name="genero">
+                                <option value="Masculino">Masculino</option>
+                                <option value="Feminino">Feminino</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </div>
+            </div>
+        </div>
+            <div class="form">
+                <form action="#">
+                   <br>
+                    <br>
+                    <br>
+                    <br>
+                        <div class="title">
+                            <h1></h1>
+                        </div>
+                        <div class="buttomCli">
+                            <button><a href="new-account-adv.html">Sou Cliente</a></button> 
+                        </div>
+                    
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="codoab">Codigo OAB</label>
+                            <input id="codoab" type="text" name="codoab" placeholder="Digite o código OAB" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="valorConsulta">Preço consulta</label>
+                            <input id="valorConsulta" type="text" name="valorConsulta" placeholder="Em reais" >
+                        </div>
+                        <div class="input-box">
+                            <label for="cepEsc">CEP escritorio</label>
+                            <input id="cepEsc" type="text" name="cepEsc" placeholder="Digite seu CEP" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="ruaEsc">Rua escritorio</label>
+                            <input id="ruaEsc" type="text" name="ruaEsc" placeholder="Digite a rua" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="numberEsc">Numero do escritorio</label>
+                            <input id="numberEsc" type="text" name="numberEsc" placeholder="N° do escritorio" >
+                        </div>
+    
+    
+                        <div class="input-box">
+                            <label for="bairroEsc">Bairro Escritorio</label>
+                            <input id="bairroEsc" type="text" name="bairroEsc" placeholder="Digiet o bairro" >
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="cityEsc">Cidade escritorio</label>
+                            <input id="cityEsc" type="text" name="cityEsc" placeholder="Digite a cidade do escritorio" >
+                        </div>
+                        <div class="areaInputs">
+                            <div class="areaTitle">
+                                <h6>Área de atuação</h6>
+                            </div>
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input id="civil" type="checkbox" name="gender">
+                                <label for="civil">Civil</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="ambiental" type="checkbox" name="gender">
+                                <label for="ambiental">Ambiental</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="empresarial" type="checkbox" name="gender">
+                                <label for="empresarial">Empresarial</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="digital" type="checkbox" name="gender">
+                                <label for="digital">digital</label>
+                            </div>
+                        </div>
+                    </div><div class="gender-group">
+                        <div class="gender-input">
+                            <input id="tributario" type="checkbox" name="gender">
+                            <label for="tributario">tributario</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="trabalhista" type="checkbox" name="gender">
+                            <label for="trabalhista">trabalhista</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="consumidor" type="checkbox" name="gender">
+                            <label for="consumidor">consumidor</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="checkbox" name="gender">
+                            <label for="none">criminalista</label>
+                        </div>
+                    </div>
+                </div>
+                   <div class="continue-button">
+                        <button><a href="#">Cadastrar</a> </button>
+                    </div>
+                
+                </form>
+            </div>
+        </div>
+    </body>
+    
+    </html>
+    
+
+    </html>
